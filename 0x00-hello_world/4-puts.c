@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This function prints "Programming is like building a multilingual puzzle" and returns 0.
- *
+ * main - This program print a line using printf function.
  * Return: Always 0 (Success)
  */
 int main(void)
