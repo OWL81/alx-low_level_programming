@@ -1,13 +1,21 @@
+/**
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
+ * * Return: void
+ */
+void print_alphabet(void)
+{
+    /* function body */
+}
 #include "main.h"
 
 void print_alphabet(void)
 {
-    char c;
+	char c;
 
-    for (c = 'a'; c <= 'z'; c++)
-    {
-        _putchar(c);
-    }
-    _putchar('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }
 
