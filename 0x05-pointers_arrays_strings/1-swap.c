@@ -6,7 +6,8 @@
  * @b: Pointer to the second integer.
  *
  * Description:
- * This function swaps the values of two integers by using a temporary variable.
+ * This function swaps the values of two integers
+ * by using a temporary variable.
  */
 void swap_int(int *a, int *b)
 {
@@ -16,3 +17,4 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
+
