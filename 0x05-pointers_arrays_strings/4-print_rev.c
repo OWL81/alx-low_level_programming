@@ -1,22 +1,19 @@
 #include "holberton.h"
 
 /**
- * _puts - Prints a string, followed by a new line, to stdout.
- * @str: Input string.
+ * print_rev - This function prints a reverse string
  *
- * Description:
- * This function prints a string character by character using
- * the _putchar function until it reaches the null terminator.
- * It then prints a new line character.
+ * @s: This is the input string
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int index;
 
-	for (index = 0; str[index] != '\0'; index++)
+	for (index = 0; s[index] != '\0'; index++)
+		;
+	for (index = index - 1; s[index] != '\0'; index--)
 	{
-		_putchar(str[index]);
+		_putchar(s[index]);
 	}
 	_putchar('\n');
 }
-
